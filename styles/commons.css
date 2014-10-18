@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/********************************************************
+	copyright: www.owjee.com
+	filename: frame.css
+	revision: 1.0
+	createdate: 2010-10-03
+	author: lovebslq
+	description:整个系首页框架布局
+********************************************************/
+
+/*公用样式1"Microsoft Yahei","冬青黑体简体中文 w3","黑体"
+----------------------------------------------------------------------------------------------------*/
+
+*html {
+	background-image: url(about:blank);
+	background-attachment: fixed;
+	-moz-transition: all 200ms ease-in;
+	-webkit-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+	transition: all 300ms ease-in;
+}
+body {
+	padding-top: 85px;
+}
+ul,
+li,
+ul li {
+	list-style: none;
+}
+.transition {
+	-moz-transition: all 200ms ease-in;
+	-webkit-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+	transition: all 300ms ease-in;
+}
+.subjectHeader {
+	width: 100%;
+	height: 40px;
+	background: #6b6b6b;
+	position: fixed;
+	top: 0;
+	left: -50px;
+	z-index: 99999999999;
+	-webkit-transform: rotate(348deg);
+	-moz-transform: rotate(348deg);
+	-o-transform: rotate(348deg);
+	-ms-transform: rotate(348deg);
+	transform: rotate(348deg);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.30);
+}
+.login {
+	position: fixed;
+	left: 40px;
+	top: 20px;
+}
+.subjectHeader .black {
+	padding-left: 68px;
+	height: 40px;
+}
+.subjectHeader .black .nav {
+	width: 80%;
+	text-align: left;
+	line-height: 40px;
+}
+.subjectHeader .black .nav a {
+	color: #fff;
+	font-size: 16px;
+	margin: 0 12px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+}
+.subjectHeader .black .nav a:hover {
+	color: #fc0;
+}
+.faster {
+	position: fixed;
+	left: -50px;
+	top: 200px;
+	text-align: right;
+	-webkit-transform: rotate(348deg);
+	-moz-transform: rotate(348deg);
+	-o-transform: rotate(348deg);
+	-ms-transform: rotate(348deg);
+	transform: rotate(348deg);
+}
+.faster li {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background: #6b6b6b;
+	margin: 25px 0;
+	padding-right: 10px;
+	margin-left: -30px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.30);
+}
+.faster li:nth-child(2) {
+	margin-left: -40px;
+}
+.faster li:nth-child(3) {
+	margin-left: -50px;
+}
+.faster li:nth-child(1):hover {
+	margin-left: 5px;
+}
+.faster li:nth-child(2):hover {
+	margin-left: -10px;
+}
+.faster li:nth-child(3):hover {
+	margin-left: -20px;
+}
+.faster li:hover {
+	margin-left: -10px;
+}
+.faster li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-shadow: 0 1px 0 #000;
+}
+.faster li:hover a {
+	color: #fc0;
+}
+.subjectCopyright {
+	width: 100%;
+	left: 0;
+	position: fixed;
+	bottom: 0;
+	z-index: 99999999999;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	background: #6b6b6b;
+	color: #fffefe;
+	text-align: center;
+}
+.subjectCopyright a {
+	color: #fff;
+	font-weight: normal;
+	font-size: 14px;
+}
+.subjectCopyright img {
+	vertical-align: middle;
+}

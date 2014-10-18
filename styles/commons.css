@@ -1,17 +1,5 @@
 @charset "utf-8";
 
-/********************************************************
-	copyright: www.owjee.com
-	filename: frame.css
-	revision: 1.0
-	createdate: 2010-10-03
-	author: lovebslq
-	description:整个系首页框架布局
-********************************************************/
-
-/*公用样式1"Microsoft Yahei","冬青黑体简体中文 w3","黑体"
-----------------------------------------------------------------------------------------------------*/
-
 *html {
 	background-image: url(about:blank);
 	background-attachment: fixed;
